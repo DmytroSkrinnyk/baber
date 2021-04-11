@@ -1,0 +1,24 @@
+.hero{
+    background-image: url(../images/main.png);
+    background-size: cover;
+    background-position: left center;
+    padding: 209px 0 311px;
+    color: #FFF1E3;
+    position: relative;
+
+    &__container{
+
+
+        &-title{
+            max-width: 601px;
+            width: 100%;
+            font: 400 32px Montserrat;
+            line-height: 39px;
+            margin-bottom: 44px;
+        }
+        &-img{
+            margin-bottom: 73px;
+        }
+
+    }
+}

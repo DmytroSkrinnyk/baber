@@ -1,0 +1,32 @@
+.header{
+    padding: 25px 25px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        &-item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: #FFFFFF;
+            gap: 44px;
+        }
+
+        &-bag{
+            background-image: url(../images/Shoppingbag.png);
+            width: 65px;
+            height: 45px;
+        }
+        &-btn{
+            margin: 8px;
+        }
+    }
+}
