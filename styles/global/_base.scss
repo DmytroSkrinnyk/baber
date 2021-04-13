@@ -41,17 +41,18 @@ button{
     font: 400 64px Montserrat;
     color: #FF7A00;
     position: relative;
+    padding-left: 24px;
     
 }
-.title-bf:before{
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -24px;
-    background: url(../images/Ellipse.png) no-repeat;;
-    width: 21px;
-    height: 21px;
+// .title-bf:before{
+//     content: '';
+//     position: absolute;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     left: 0;
+//     background: url(../images/Ellipse.png) no-repeat;;
+//     width: 21px;
+//     height: 21px;
     
 
-}
+// }
