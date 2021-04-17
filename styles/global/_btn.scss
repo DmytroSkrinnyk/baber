@@ -3,6 +3,7 @@
     height: 52px;
     padding: 16px 32px;
     background: #FF7A00;
+    box-sizing: border-box;
     border-radius: 4px;
     color: #FFFFFF;
     font: 400 16px Montserrat;
@@ -10,12 +11,12 @@
 }
 .btn-jaco:hover{
     background: #DA6401;
-    border: 2px solid #FF7A00;
+    border: 1px solid #FF7A00;
     box-sizing: border-box;
 }
 
 .btn{
-    width: 173px;
+    width: 165px;
     height: 52px;
     padding: 16px 32px;
     background: #222222;
@@ -28,6 +29,5 @@
 .btn:hover{
     border: 1px solid #FFF2E5;
     box-sizing: border-box;
-    border-radius: 4px;
     background: #3D3A37;
 }
