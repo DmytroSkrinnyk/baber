@@ -1,9 +1,11 @@
 .header{
-    padding: 25px 25px;
-    position: absolute;
+    padding: 25px 0;
+    position: fixed;
     top: 0;
     z-index: 10;
     width: 100%;
+    background: #222222;
+    box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.32);
 
     &__container{
         display: flex;
@@ -11,22 +13,33 @@
         justify-content: space-between;
         flex-wrap: wrap;
 
+        &-link{
+            font: 400 16px Montserrat;
+            color: #FFFFFF;
+        }
+        &-link:hover{
+            color: #FF7A00;
+        }
+
         &-item{
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
-            color: #FFFFFF;
+            list-style: disc;
             gap: 44px;
         }
-
-        &-bag{
-            background-image: url(../images/Shoppingbag.png);
-            width: 65px;
-            height: 45px;
+        &-basket_btn{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &-basket{
+            margin-right: 40px;
         }
         &-btn{
             margin: 8px;
+            border: none;
         }
     }
 }

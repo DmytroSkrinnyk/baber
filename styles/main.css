@@ -404,8 +404,7 @@ button {
 .title-bf {
   font: 400 64px Montserrat;
   color: #FF7A00;
-  position: relative;
-  padding-left: 24px;
+  list-style: disc;
 }
 
 .btn-jaco {
@@ -416,6 +415,14 @@ button {
   border-radius: 4px;
   color: #FFFFFF;
   font: 400 16px Montserrat;
+  border: none;
+}
+
+.btn-jaco:hover {
+  background: #DA6401;
+  border: 2px solid #FF7A00;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .btn {
@@ -431,12 +438,23 @@ button {
   font: 400 16px Montserrat;
 }
 
+.btn:hover {
+  border: 1px solid #FFF2E5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  background: #3D3A37;
+}
+
 .header {
-  padding: 25px 25px;
-  position: absolute;
+  padding: 25px 0;
+  position: fixed;
   top: 0;
   z-index: 10;
   width: 100%;
+  background: #222222;
+  -webkit-box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.32);
+          box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.32);
 }
 
 .header__container {
@@ -453,6 +471,15 @@ button {
       flex-wrap: wrap;
 }
 
+.header__container-link {
+  font: 400 16px Montserrat;
+  color: #FFFFFF;
+}
+
+.header__container-link:hover {
+  color: #FF7A00;
+}
+
 .header__container-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -465,18 +492,29 @@ button {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  color: #FFFFFF;
+  list-style: disc;
   gap: 44px;
 }
 
-.header__container-bag {
-  background-image: url(../images/Shoppingbag.png);
-  width: 65px;
-  height: 45px;
+.header__container-basket_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__container-basket {
+  margin-right: 40px;
 }
 
 .header__container-btn {
   margin: 8px;
+  border: none;
 }
 
 .hero {
@@ -502,5 +540,153 @@ button {
 
 .services {
   padding: 88px 0 106px;
+  position: relative;
+}
+
+.services-png {
+  background-image: url(../images/mignon_hemsley.png);
+  width: 1100px;
+  height: 718px;
+}
+
+.services__container {
+  position: absolute;
+  top: 46%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+}
+
+.services__container-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services__container-item {
+  padding: 101px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #ffffff;
+}
+
+.services__container-item-link {
+  width: calc(100% / 3);
+  cursor: pointer;
+  padding-left: 69px;
+  position: relative;
+  margin-bottom: 61px;
+}
+
+.services__container-item-link-title {
+  font: 400 32px Montserrat;
+}
+
+.services__container-item-link-description {
+  font: 200 16px Montserrat;
+  line-height: 20px;
+}
+
+.services__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #000000;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.scissors:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 69px;
+  height: 69px;
+  background: url(../images/scissors.png) no-repeat;
+}
+
+.razor:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 69px;
+  height: 69px;
+  background: url(../images/razor.png) no-repeat;
+}
+
+.hair_dryer:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 69px;
+  height: 69px;
+  background: url(../images/hair_dryer.png) no-repeat;
+}
+
+.bottle:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 69px;
+  height: 69px;
+  background: url(../images/bottle.png) no-repeat;
+}
+
+.brush:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 69px;
+  height: 69px;
+  background: url(../images/brush.png) no-repeat;
+}
+
+.blade:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  width: 69px;
+  height: 69px;
+  background: url(../images/blade.png) no-repeat;
+}
+
+.ourteam {
+  padding: 106px 0 116px;
+}
+
+.ourteam-container-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=main.css.map */

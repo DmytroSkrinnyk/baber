@@ -1,3 +1,120 @@
 .services{
     padding: 88px 0 106px;
+    position: relative;
+
+    &-png{
+        background-image: url(../images/mignon_hemsley.png);
+        width: 1100px;
+        height: 718px;
+        
+
+    }
+
+    &__container{
+        position: absolute;
+        top: 46%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 100%;
+
+        &-title{
+            display: flex;
+            justify-content: center;
+
+        }
+        &-item{
+            padding: 101px 0;
+            display: flex;
+            flex-wrap: wrap;
+            color: #ffffff;
+
+            &-link{
+                width: calc(100% / 3);
+                cursor: pointer;
+                padding-left: 69px;
+                position: relative;
+                margin-bottom: 61px;
+
+                &-title{
+                    font: 400 32px Montserrat;
+                }
+                &-description{
+                    font: 200 16px Montserrat;
+                    line-height: 20px;
+                }
+                
+
+            }
+            
+    }
+}
+}
+.services__item{
+    display: flex;
+    flex-wrap: wrap;
+    background: #000000;
+    opacity: 0.8;
+    color: #ffffff;
+
+}
+.scissors:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 69px;
+    height: 69px;
+    background: url(../images/scissors.png) no-repeat;
+}
+.razor:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 69px;
+    height: 69px;
+    background: url(../images/razor.png) no-repeat;
+}
+
+.hair_dryer:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 69px;
+    height: 69px;
+    background: url(../images/hair_dryer.png) no-repeat;
+}
+.bottle:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 69px;
+    height: 69px;
+    background: url(../images/bottle.png) no-repeat;
+}
+.brush:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 69px;
+    height: 69px;
+    background: url(../images/brush.png) no-repeat;
+}
+.blade:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 69px;
+    height: 69px;
+    background: url(../images/blade.png) no-repeat;
 }
