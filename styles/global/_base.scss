@@ -40,17 +40,25 @@ button{
 .title-bf{
     font: 400 64px Montserrat;
     color: #FF7A00;
-    list-style: disc;
+    position: relative;
+    text-align: center;
+    margin:0 auto 41px;
+    width: max-content;
+    padding-left: 25px;
+      
+    
 }
-// .title-bf:before{
-//     content: '';
-//     position: absolute;
-//     top: 50%;
-//     transform: translateY(-50%);
-//     left: 0;
-//     background: url(../images/Ellipse.png) no-repeat;;
-//     width: 21px;
-//     height: 21px;
+.title-bf:before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color:  #FF7A00;
+    
     
 
-// }
+}

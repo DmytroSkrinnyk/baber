@@ -5,8 +5,53 @@
 
         &-item{
             display: flex;
-            justify-content: flex-end;
+            flex-wrap: wrap;
+            justify-content: space-between;
 
+            &-title{
+                text-align: right;
+                margin-right: 0;
+            }
+        }
+    }
+    &__link{
+        max-width: 630px;
+        width: 100%;
+        position: relative;
+
+        &::before{
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-top: 4px solid #FF7A00;
+            border-right: 4px solid #FF7A00;
+            transform: rotate(45deg);
+            right: 0;
+            bottom: 30px;
+        }
+
+        &-img-shadow{
+            box-shadow: 16px 16px  #FF7A00;;
+        
+        }
+    }
+    &__item{
+        max-width: 441px;
+        width: 100%;
+
+        &-title{
+            font: 400 32px Montserrat;
+            text-align: start;
+            color: #FF7A00;
+            margin-bottom: 24px;
+        }
+        &-description{
+            font: 300 16px Montserrat;
+            line-height: 20px;
+            align-items: center;
+            color: #222222;
         }
     }
 }

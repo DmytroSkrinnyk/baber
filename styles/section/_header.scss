@@ -19,6 +19,7 @@
         }
         &-link:hover{
             color: #FF7A00;
+            transition: ease .5s ;
         }
 
         &-item{
@@ -35,10 +36,13 @@
             justify-content: space-between;
         }
         &-basket{
-            margin-right: 40px;
+            margin-right: 8px;
+        }
+        &-span{
+            color: #FFFFFF;
         }
         &-btn{
-            margin: 8px;
+            margin: 8px 40px;
             border: none;
         }
     }
