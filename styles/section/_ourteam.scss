@@ -15,26 +15,54 @@
         }
     }
     &__link{
-        max-width: 630px;
-        width: 100%;
-        position: relative;
-
-        &::before{
-            content: "";
-            display: inline-block;
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            border-top: 4px solid #FF7A00;
-            border-right: 4px solid #FF7A00;
-            transform: rotate(45deg);
-            right: 0;
-            bottom: 30px;
+        
+        &-img:not(:last-of-type){
+            margin-right: 8px;
+            
+           
         }
+         &-img-shadow{
+           margin-right: 24px;
+           }
+       
+       &-btn{
+           position: relative;
+           width: 53px;
+           height: 53px;
+           background-color:#FFF2E5;
+           border: none;
+           margin-left: 16px;
+           bottom: 24px;
+
+           &:before{
+               content: "";
+               position: absolute;
+               background-color:#FF7A00;
+               width: 20px;
+               height: 4px;
+               border-radius: 10px;
+               transform: rotate(45deg);
+               top: 20px;
+               left: 15px;
+           }
+
+           &::after{
+            content: "";
+            position: absolute;
+            background-color: #FF7A00;
+            width: 20px;
+            height: 4px;
+            border-radius: 10px;
+            transform: rotate(-45deg);
+            top: 32px;
+            left: 15px;
+        }
+           
+       }
 
         &-img-shadow{
-            box-shadow: 16px 16px  #FF7A00;;
-        
+            box-shadow: 16px 16px 0 0 #FF7A00,
+            16px -16px 0 0 #FF7A00;
         }
     }
     &__item{
