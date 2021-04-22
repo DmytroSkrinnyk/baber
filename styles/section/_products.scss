@@ -1,0 +1,78 @@
+.products{
+    padding: 100px 206px;
+
+    &-title{
+        margin: 0 0 96px;
+    }
+
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        &-item{
+            margin:15px;
+            &-title{
+                font: 700 16px Montserrat;
+            }
+            &-description{
+                
+                
+                &-price{
+                margin: 16px 0 26px;
+                color:#FF7A00 ;
+                font: 700 16px Montserrat;
+                }
+            }
+           
+
+        }
+        &-btn{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+.btn-shopnow{
+    padding: 16px 32px;
+    width: 162px;
+    height: 52px;
+    font: 700 16px Montserrat;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #ffffff;
+}
+.btn-plus{
+    padding:16px 26px ;
+    position: relative;
+    width: 52px;
+    height: 52px;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #ffffff;
+
+    &::before{
+        position: absolute;
+        content: "";
+        background-color:#222222;
+        width: 20px;
+        height: 3px;
+        border-radius: 4px;
+        left: 33%;
+        top: 50%;
+    }
+    &::after{
+        position: absolute;
+        content: "";
+        background-color:#222222;
+        width: 20px;
+        height: 3px;
+        border-radius: 4px;
+        transform: rotate(90deg);
+        left: 33%;
+        top: 50%;
+    }
+}

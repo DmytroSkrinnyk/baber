@@ -728,9 +728,6 @@ button {
 .ourteam__item-description {
   font: 300 16px Montserrat;
   line-height: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #222222;
 }
 
@@ -761,6 +758,11 @@ button {
   margin-bottom: 64px;
 }
 
+.span-label {
+  font: 400 16px Montserrat;
+  margin: 8px 20px;
+}
+
 .input__form-name {
   max-width: 600px;
   width: 100%;
@@ -775,8 +777,6 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .input__form-date {
@@ -916,5 +916,218 @@ button {
 
 .input__form-name, .input__form-date, .input__form-time {
   margin-bottom: 24px;
+}
+
+.products {
+  padding: 100px 206px;
+}
+
+.products-title {
+  margin: 0 0 96px;
+}
+
+.products-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products-list-item {
+  margin: 15px;
+}
+
+.products-list-item-title {
+  font: 700 16px Montserrat;
+}
+
+.products-list-item-description-price {
+  margin: 16px 0 26px;
+  color: #FF7A00;
+  font: 700 16px Montserrat;
+}
+
+.products-list-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn-shopnow {
+  padding: 16px 32px;
+  width: 162px;
+  height: 52px;
+  font: 700 16px Montserrat;
+  border: 1px solid #222222;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.btn-plus {
+  padding: 16px 26px;
+  position: relative;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #222222;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+.btn-plus::before {
+  position: absolute;
+  content: "";
+  background-color: #222222;
+  width: 20px;
+  height: 3px;
+  border-radius: 4px;
+  left: 33%;
+  top: 50%;
+}
+
+.btn-plus::after {
+  position: absolute;
+  content: "";
+  background-color: #222222;
+  width: 20px;
+  height: 3px;
+  border-radius: 4px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  left: 33%;
+  top: 50%;
+}
+
+.reviews {
+  padding: 64px 100px;
+  background: url(../images/set.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.reviews-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.reviews-item-list-img-border {
+  -webkit-box-shadow: 16px 16px 0 0 transparent, 16px -16px 0 0 transparent;
+          box-shadow: 16px 16px 0 0 transparent, 16px -16px 0 0 transparent;
+  margin-right: 24px;
+}
+
+.reviews-item-list-btn-left {
+  position: relative;
+  width: 53px;
+  height: 53px;
+  background-color: transparent;
+  border: none;
+  margin-right: 16px;
+  bottom: 24px;
+}
+
+.reviews-item-list-btn-left:before {
+  content: "";
+  position: absolute;
+  background-color: #FF7A00;
+  width: 20px;
+  height: 4px;
+  border-radius: 10px;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  top: 20px;
+  left: 15px;
+}
+
+.reviews-item-list-btn-left::after {
+  content: "";
+  position: absolute;
+  background-color: #FF7A00;
+  width: 20px;
+  height: 4px;
+  border-radius: 10px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  top: 32px;
+  left: 15px;
+}
+
+.reviews-item-list-btn-right {
+  position: relative;
+  width: 53px;
+  height: 53px;
+  background-color: transparent;
+  border: none;
+  margin-left: 16px;
+  bottom: 24px;
+}
+
+.reviews-item-list-btn-right:before {
+  content: "";
+  position: absolute;
+  background-color: #FF7A00;
+  width: 20px;
+  height: 4px;
+  border-radius: 10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 20px;
+  left: 15px;
+}
+
+.reviews-item-list-btn-right::after {
+  content: "";
+  position: absolute;
+  background-color: #FF7A00;
+  width: 20px;
+  height: 4px;
+  border-radius: 10px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 32px;
+  left: 15px;
+}
+
+.reviews-item-other {
+  max-width: 602px;
+  width: 100%;
+  margin-left: 22%;
+}
+
+.reviews-item-other-title {
+  font: 400 32px Montserrat;
+  text-align: start;
+  color: #FF7A00;
+  margin-bottom: 24px;
+}
+
+.reviews-item-other-description {
+  font: 300 16px Montserrat;
+  line-height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

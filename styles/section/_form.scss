@@ -21,6 +21,10 @@
     text-align: center;
     margin-bottom: 64px;
 }
+.span-label{
+    font: 400 16px Montserrat;
+    margin: 8px 20px;
+}
 .input__form-name{
     max-width: 600px;
     width: 100%;
@@ -28,10 +32,10 @@
     border: 1px solid #DFDFDF;
     box-sizing: border-box;
     border-radius: 4px;
+    
 }
 .form-label{
     display: flex;
-    flex-wrap: wrap;
 }
 .input__form-date{
     max-width: 288px;
