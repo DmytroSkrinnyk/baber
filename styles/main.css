@@ -1135,6 +1135,50 @@ button {
   padding: 130px 0;
 }
 
+.contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-item-title {
+  margin-bottom: 32px;
+  font: 700 64px Montserrat;
+  color: #FF7A00;
+}
+
+.contact-item-description, .contact-item .contact-item-timework-list-day, .contact-item .contact-item-timework-list-time {
+  font: 700 16px Montserrat;
+  margin-left: 45px;
+}
+
+.contact-item-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 45px;
+}
+
+.contact-item-social-list {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
 .contact-maps {
   background: url(../images/worldmaps.png);
   max-width: 727px;

@@ -2,7 +2,36 @@
     padding: 130px 0;
 
 
+    &-us{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &-item{
+        display: flex;
+        flex-direction: column;
 
+        &-title{
+            margin-bottom: 32px;
+            font: 700 64px Montserrat;
+            color: #FF7A00;
+        }
+        &-description, .contact-item-timework-list-day, .contact-item-timework-list-time{
+            font: 700 16px Montserrat;
+            margin-left: 45px;
+        }
+        &-social{
+            display: flex;
+             margin: 30px 45px;
+
+            &-list{
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+            }
+        }
+    
+    }
 
     &-maps{
         background: url(../images/worldmaps.png);
