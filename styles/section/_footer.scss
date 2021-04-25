@@ -1,0 +1,98 @@
+.footer{
+    padding: 44px 170px;
+    background: #222222;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+
+        &-logo{
+            display: flex;
+            justify-content: space-between;
+        }
+        &-item{
+            margin-left: 73px;
+
+            &-list:not(:last-child){
+                margin-bottom: 24px;
+            }
+            
+
+
+            &-link{
+                font: 700 16px Montserrat;
+                color: #FFFFFF;
+                transition: ease .5s ;
+
+                &:hover{
+                    color: #FF7A00;
+                }
+            }
+        }
+    }
+    
+    &__contact{
+        display: flex;
+        justify-content: space-between;
+
+        &-us{
+            margin-right: 67px;
+
+            &-title{
+                font: 400 16px Montserrat;
+                margin-bottom: 32px;
+                color: #FFFFFF;
+            }
+            &-description{
+                font: 400 16px Montserrat;
+                color: #FFFFFF;
+
+                &:not(:last-child){
+                    margin-bottom: 24px;
+                }
+            }
+            &-link{
+                font: 400 16px Montserrat;
+                color: #FFFFFF;
+                }
+        }
+        &-visit{
+            margin-right: 67px;
+    
+            &-title{
+                font: 400 16px Montserrat;
+                margin-bottom: 32px;
+                color: #FFFFFF;
+            }
+            &-description{
+                font: 400 16px Montserrat;
+                color: #FFFFFF;
+                margin-bottom: 24px;
+            }
+            &-link{
+                font: 400 16px Montserrat;
+                color: #FFFFFF;
+            }
+        }
+        &-follow{
+
+            &-title{
+                font: 400 16px Montserrat;
+                margin-bottom: 32px;
+                color: #FFFFFF;
+            }
+
+            &-item{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+
+    }
+
+
+
+}
+    
+

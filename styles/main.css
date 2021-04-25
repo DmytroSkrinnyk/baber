@@ -1033,8 +1033,8 @@ button {
 }
 
 .reviews-item-list-img-border {
-  -webkit-box-shadow: 16px 16px 0 0 transparent, 16px -16px 0 0 transparent;
-          box-shadow: 16px 16px 0 0 transparent, 16px -16px 0 0 transparent;
+  -webkit-box-shadow: 16px 16px 0 0 rgba(122, 122, 122, 0.1), 16px -16px 0 0 rgba(122, 122, 122, 0.1);
+          box-shadow: 16px 16px 0 0 rgba(122, 122, 122, 0.1), 16px -16px 0 0 rgba(122, 122, 122, 0.1);
   margin-right: 24px;
 }
 
@@ -1186,5 +1186,116 @@ button {
   height: 428px;
   background-repeat: no-repeat;
   background-position: left bottom;
+}
+
+.footer {
+  padding: 44px 170px;
+  background: #222222;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__container-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__container-item {
+  margin-left: 73px;
+}
+
+.footer__container-item-list:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.footer__container-item-link {
+  font: 700 16px Montserrat;
+  color: #FFFFFF;
+  -webkit-transition: ease .5s;
+  transition: ease .5s;
+}
+
+.footer__container-item-link:hover {
+  color: #FF7A00;
+}
+
+.footer__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__contact-us {
+  margin-right: 67px;
+}
+
+.footer__contact-us-title {
+  font: 400 16px Montserrat;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+}
+
+.footer__contact-us-description {
+  font: 400 16px Montserrat;
+  color: #FFFFFF;
+}
+
+.footer__contact-us-description:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.footer__contact-us-link {
+  font: 400 16px Montserrat;
+  color: #FFFFFF;
+}
+
+.footer__contact-visit {
+  margin-right: 67px;
+}
+
+.footer__contact-visit-title {
+  font: 400 16px Montserrat;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+}
+
+.footer__contact-visit-description {
+  font: 400 16px Montserrat;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.footer__contact-visit-link {
+  font: 400 16px Montserrat;
+  color: #FFFFFF;
+}
+
+.footer__contact-follow-title {
+  font: 400 16px Montserrat;
+  margin-bottom: 32px;
+  color: #FFFFFF;
+}
+
+.footer__contact-follow-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
