@@ -8,12 +8,11 @@
     color: #FFFFFF;
     font: 400 16px Montserrat;
     border: none;
+    transition: ease .5s ;
 }
 .btn-jaco:hover{
     background: #DA6401;
-    border: 1px solid #FF7A00;
     box-sizing: border-box;
-    transition: ease .5s ;
 }
 
 .btn{
@@ -26,10 +25,10 @@
     border-radius: 4px;
     color: #FFFFFF;
     font: 400 16px Montserrat;
+    transition: ease .5s ;
 }
 .btn:hover{
     border: 1px solid #FFF2E5;
     box-sizing: border-box;
     background: #3D3A37;
-    transition: ease .5s ;
 }
